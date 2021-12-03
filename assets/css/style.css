@@ -1,0 +1,132 @@
+/* General styling begins here */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    max-width: 1248px;
+    width: 85%;
+}
+
+a {
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    color: #5ACAEE;
+    font-size: 16px;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+h3 {
+    color: #5B5D5D;
+    font-size: 38px;
+}
+
+h4 {
+    color: #045C78;
+    font-size: 18px;
+}
+
+p {
+    color: #5B5D5D;
+}
+
+/* General styling ends here */
+
+
+
+/* Header styling begins here */
+
+.header {
+    position: absolute;
+    width: 100vw;
+}
+
+header {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header-logo {
+    width: 200px;
+}
+
+/* Header styling ends here */
+
+
+/* Hero styling begins here */
+.hero {
+    background-image: url("../images/hero-section-background.jpg");
+    background-size: cover;
+    height: 80vh;
+    padding-top: 80px;
+}
+
+.hero .container {
+    width: 65%;
+}
+
+.hero p {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+/* Hero styling ends here */
+
+
+/* About styling begins here */
+/* About styling ends here */
+
+
+/* Services styling begins here */
+
+.services {
+    background-color: rgba(236, 240, 243, 0.5);
+}
+
+.services .card {
+    height: 350px;
+}
+
+/* Services styling ends here */
+
+
+/* Contact styling begins here */
+/* Contact styling ends here */
+
+
+/* Footer styling begins here */
+
+.footer {
+    background-color: #5B5D5D;
+    padding: 60px;
+}
+
+.footer-copyright {
+    font-size: 16px;
+    color: #979797;
+}
+
+.footer-nvision {
+    font-size: 14px;
+    font-weight: 400;
+    color: #5ACAEE;
+}
+
+/* Footer styling ends here */
